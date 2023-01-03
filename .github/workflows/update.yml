@@ -1,0 +1,15 @@
+name: Scheduled dependencies update
+on:
+  schedule:
+    - cron: '0 2 * * 1-5'
+jobs:
+  update-deps:
+    name: Update Node dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+      - uses: neverendingqs/gh-action-node-update-deps@v2
