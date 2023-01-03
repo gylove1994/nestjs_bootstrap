@@ -6,7 +6,9 @@
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
   <p align="center"><b>A out-of-box repository for Nest framework</b></p>
-
+  
+[![Build test](https://github.com/gylove1994/nestjs_bootstrap/actions/workflows/build.yml/badge.svg)](https://github.com/gylove1994/nestjs_bootstrap/actions/workflows/build.yml)
+[![CodeQL](https://github.com/gylove1994/nestjs_bootstrap/actions/workflows/codeql.yml/badge.svg)](https://github.com/gylove1994/nestjs_bootstrap/actions/workflows/codeql.yml)
 ## Description
 
 A repository have some basic but annoying settings for a new Nestjs project.
