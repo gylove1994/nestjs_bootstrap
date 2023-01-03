@@ -1,4 +1,4 @@
-name: Node.js Package
+name: auto_release
 
 on:
   push:
